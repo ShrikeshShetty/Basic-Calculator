@@ -1,0 +1,169 @@
+body
+{
+  background:linear-gradient(#FAF3E0,#FAF3E0,white);
+
+
+}
+.text{
+  position: absolute;
+  left: 28%;
+  color: transparent;
+  -webkit-text-stroke: 1px black;
+  font-size:48px;
+  font-family: Poppins, Helvetica, Futura;
+}
+.bg{
+  border:2px solid rgba(60, 56, 56, 0.155);
+  border-radius:40px;
+  background-color:rgb(76, 71, 71);
+  width:420px;
+  height:420px;
+  margin:0px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: drop-shadow(10px 12px 20px white);
+}
+.entry{
+  background-color:rgb(150, 254, 150);
+  margin:15px;
+  width:320px;
+  height:45px;
+  font-size: 17px;
+}
+.bt{
+  width:90px;
+  height:50px;
+  background-color:rgba(0, 66, 107, 0.575);
+  color:white;
+  cursor:pointer;
+  border-radius: 10px ;
+}
+.button-container{
+  margin:17px;
+}
+.clear
+{
+  width:90px;
+  height:50px;
+  background-color:red;
+  color:white;
+  cursor:pointer;
+  border-radius: 10px ;
+}
+.cut
+{
+  width:90px;
+  height:50px;
+  background-color:yellow;
+  color:black;
+  cursor:pointer;
+  border-radius: 10px ;
+}
+.equals
+{
+  width:90px;
+  height:50px;
+  background-color:green;
+  color:white;
+  cursor:pointer;
+  border-radius: 10px ;
+}
+
+#all
+{
+  margin-bottom: 0;
+  margin-right: 400px;
+  background: none;
+  border:none
+}
+#main-button
+{
+  height:50px;
+  width: 300px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  background-color: aquamarine;
+  border-radius: 17px;
+  border:2px solid white;
+  color:black;
+  font-weight: bold;
+  cursor: pointer;
+}
+.body-main
+{
+
+  font-size: 17px;
+  color: black;
+  height: 200px;
+  padding-top: 470px;
+}
+
+
+.footer-main
+{
+  padding-top: 300px;
+}
+.footer
+{
+  background-color: #1B263B;
+  color:white;
+  height:40px;
+  padding: 100px;
+}
+.footer a
+{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+.footer p
+{
+  font-size: 18px;
+}
+.content
+{
+  margin-top: -50px;
+}
+.fa-instagram, .fa-facebook, .fa-linkedin
+{
+  cursor:pointer
+}
+.fa-instagram:hover
+{
+  background: linear-gradient(45deg, #F56040, #FF5851, #C13584, #833AB4, #5851DB, #405DE6);
+  border-radius: 50px;
+}
+.fa-facebook:hover
+{
+  background-color: #1877F2;
+  border-radius: 50px;
+
+}
+.fa-linkedin:hover
+{
+  background-color: #0077B5;
+  border-radius: 50px;
+
+}
+.footer .insta-text:hover
+{
+  color: #E1306C;
+
+}
+.footer .facebook-text:hover
+{
+  color: #1877F2;
+
+}
+.footer .linkedin-text:hover
+{
+  color: #0077B5;
+
+}
+.footer .benefits
+{
+  margin-left:600px;
+  margin-top: -130px;
+}
